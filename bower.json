@@ -1,0 +1,25 @@
+{
+    "name": "web-appbuillder-widgets-directory",
+    "version": "0.0.1",
+    "homepage": "https://github.com/esri-es/web-appbuillder-widgets-directory",
+    "authors": [
+        "Raúl Jiménez <raul.jimenez@esri.es> (https://github.com/hhkaos)"
+    ],
+    "description": "A collection of custom widgets for Web AppBuilder for ArcGIS",
+    "main": ["main.js"],
+    "keywords": [
+        "Angular",
+        "Esri",
+        "Web AppBuilder",
+        "Widgets"
+    ],
+    "license": "Apache",
+    "dependencies":{
+        "jquery": "*",
+        "bootstrap": "*",
+        "angularjs": "*"
+    },
+    "ignore": [
+        "bower_components"
+    ]
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html ng-app="widgetsDirectory">
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="http://js.arcgis.com/3.12/esri/css/esri.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body ng-controller="MainCtrl">
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center">
+            <h1 class="text-muted">Web AppBuilder for ArcGIS</h1>
+            <h2>Custom Widgets Directory</h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-8 search-bar col-md-offset-2">
+            <div class="input-group">
+                <span class="input-group-addon" id="basic-addon1"><i class="glyphicon glyphicon-search"></i></span>
+                <input ng-model="query" type="text" class="form-control" placeholder="Filtrar" aria-describedby="basic-addon1">
+            </div>
+        </div>
+
+        <div class="col-md-8 col-md-offset-2">
+
+            <ul id="widget-list">
+                <li ng-repeat="w in widgets | filter:filterFunction">
+                    <strong>{{w.gsx$nombre.$t}}</strong><br>
+                    {{w.gsx$descripcion.$t}}<br>
+                    Autor: {{w.gsx$autor.$t}}
+                    <button class="btn btn-primary" ng-click='preview($index)'><i class="glyphicon glyphicon-eye-open"></i></button>
+                </li>
+            </ul>
+
+        </div>
+
+        <!--<div class="col-md-4">
+
+            <p>Cambiar mapa</p>
+
+
+        </div>-->
+
+    </div>
+</div>
+
+
+<div class="modal large fade" id="modalTechs" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">{{w.gsx$nombre.$t}}</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    <strong>Autor:</strong> {{w.gsx$autor.$t}}
+                </p>
+                <p>
+                    <strong>Descripción:</strong> {{w.gsx$descripcion.$t}}
+                </p>
+                <iframe ng-src="{{w.gsx$urldemo.$t | trusted}}"></iframe>
+
+                <div class="btn-group" role="group" aria-label="...">
+                    <a class="btn btn-warning" type="button" class="btn btn-default" href="{{w.gsx$urldescarga.$t}}" target="_blank">
+                        Descargar <i class="glyphicon glyphicon-arrow-down"></i>
+                    </a>
+                    <a class="btn btn-primary" type="button" class="btn btn-default" href="{{w.gsx$info.$t}}">
+                        Info <i class="glyphicon glyphicon-info-sign"></i>
+                    </a>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+</div>
+
+<script type="text/javascript" src="http://js.arcgis.com/3.12compact"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.js"></script>
+<script src="/bower_components/jquery/jquery.min.js"></script>
+<script src="/bower_components/bootstrap/js/bootstrap-modal.js"></script>
+<!--<script src="/bower_components/angular-esri-map/dist/angular-esri-map.js"></script>-->
+<script src="main.js"></script>
+</body>
+</html>

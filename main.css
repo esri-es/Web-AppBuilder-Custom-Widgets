@@ -1,0 +1,44 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.search-bar{
+    margin-bottom: 1em;
+}
+.modal.large {
+    width: 80%; /* respsonsive width */
+    margin-left:10%; /* width/2) */
+}
+.modal.large .modal-dialog{
+    width: 100%;
+}
+
+.modal.large iframe{
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 500px;
+}
+
+#widget-list{
+    list-style: none;
+    padding: 0;
+    border: 1px solid #CCC;
+    border-bottom: 0;
+}
+
+#widget-list li{
+    border-bottom: 1px solid #CCC;
+    padding: .5em 1em;
+    position: relative;
+}
+#widget-list li:nth-child(even){
+    background-color: #F6F6F6;
+}
+#widget-list li:nth-child(odd){
+
+}
+
+#widget-list li button{
+    top: 15px;
+    position: absolute;
+    right: 15px;
+}
