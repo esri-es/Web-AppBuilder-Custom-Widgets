@@ -1,6 +1,21 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+#esriLogo{
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    width: 170px;
+}
+h1{
+    font-size: 2em;
+    margin-bottom: 0;
+}
+h2{
+    margin-bottom: 1em;
+    font-size: 1.4em;
+    margin-top: .5em;
+}
 .search-bar{
     margin-bottom: 1em;
 }
@@ -15,20 +30,33 @@ body{
 .modal.large iframe{
     width: 100%;
     border: 1px solid #ccc;
-    height: 400px;
+    height: 600px;
 }
 
 #widget-list{
     list-style: none;
     padding: 0;
     border: 1px solid #CCC;
+    z-index: 1;
     border-bottom: 0;
 }
-
+#widget-list li strong{
+    margin-bottom: .5em;
+    display: block;
+}
 #widget-list li{
     border-bottom: 1px solid #CCC;
-    padding: .5em 1em;
+    padding: .5em 5em .5em 1em;
     position: relative;
+    cursor: pointer;
+}
+#widget-list .author{
+    color: #888;
+    font-size: .9em;
+    display: block;
+    border-top: 1px dotted #CCC;
+    margin: 1em 0 0;
+    padding: .5em 0;;
 }
 #widget-list li:nth-child(even){
     background-color: #F6F6F6;
@@ -41,4 +69,11 @@ body{
     top: 15px;
     position: absolute;
     right: 15px;
+}
+
+footer .footer{
+    margin-bottom: 3em;
+    /* border-top: 1px solid #CCC; */
+    padding-top: 1em;
+    margin-top: .5em;
 }
