@@ -9,9 +9,17 @@ widgetsApp.controller('MainCtrl',['$scope','$http',
             success(function(data, status) {
                 $scope.status = status;
 
+                var widgets = [];
+                data.feed.entry.forEach(function(elem){
+                    if(elem.gsx$publico.$t){
+                        elem.index = widgets.length;
+                        widgets.push(elem);
+                    }
 
+                });
 
-                $scope.widgets = data.feed.entry;
+                console.log(widgets);
+                $scope.widgets = widgets;
                 console.log($scope.widgets);
             }).
             error(function(data, status) {

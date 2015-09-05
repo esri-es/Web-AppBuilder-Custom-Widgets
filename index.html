@@ -33,11 +33,11 @@
                 <p class="pull-right ">Widgets: {{filtered.length}} de {{widgets.length}}</p>
             </div>
             <ul id="widget-list">
-                <li ng-repeat="w in filtered = (widgets | filter:filterFunction)" ng-click='preview(w.gsx$i.$t)'>
+                <li ng-repeat="w in filtered = (widgets | filter:filterFunction)" ng-click='preview(w.index)'>
                     <strong>{{w.gsx$nombre.$t}}</strong>
                     {{w.gsx$descripcion.$t}}<br>
                     <span class="author">Autor: {{w.gsx$autor.$t}}</span>
-                    <button class="btn btn-primary" ng-click='preview(w.gsx$i.$t)'><i class="glyphicon glyphicon-eye-open"></i></button>
+                    <button class="btn btn-primary" ng-click='preview(w.index)'><i class="glyphicon glyphicon-eye-open"></i></button>
                 </li>
             </ul>
 
