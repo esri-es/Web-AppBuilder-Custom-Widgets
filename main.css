@@ -15,7 +15,7 @@ body{
 .modal.large iframe{
     width: 100%;
     border: 1px solid #ccc;
-    height: 500px;
+    height: 400px;
 }
 
 #widget-list{
