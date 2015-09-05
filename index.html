@@ -30,6 +30,11 @@
 
         <div class="col-md-8 col-md-offset-2">
             <div class="clearfix">
+                <p class="pull-left">
+                    <button class="btn btn-success btn-xs" type="button" data-toggle="modal" data-target="#formModal">
+                        <i class="glyphicon glyphicon-send glyphicon " style="margin-right: 5px"></i> Enviar nuevo widget
+                    </button>
+                </p>
                 <p class="pull-right ">Widgets: {{filtered.length}} de {{widgets.length}}</p>
             </div>
             <ul id="widget-list">
@@ -43,13 +48,6 @@
 
         </div>
 
-        <!--<div class="col-md-4">
-
-            <p>Cambiar mapa</p>
-
-
-        </div>-->
-
     </div>
     <footer class="row">
         <div class="col-md-8 col-md-offset-2 text-center">
@@ -61,7 +59,7 @@
 </div>
 
 
-<div class="modal large fade" id="modalTechs" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal large fade" id="widgetModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -80,8 +78,6 @@
 
                 <iframe ng-if="w.gsx$urldemo.$t" ng-src="{{w.gsx$urldemo.$t | trusted}}"></iframe>
 
-
-
             </div>
             <div class="modal-footer">
                 <div class="btn-group pull-left" role="group" aria-label="...">
@@ -98,6 +94,24 @@
 
     </div>
 </div>
+
+<div class="modal large fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Enviar nuevo widget</h4>
+            </div>
+            <div class="modal-body">
+                <iframe src="https://docs.google.com/forms/d/1M9VwuGpCqs9c5bJTlBaOWHeADPbn7fZozwSdiQCUQCs/viewform"></iframe>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
 
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5110fe544ae3cec6" async="async"></script>

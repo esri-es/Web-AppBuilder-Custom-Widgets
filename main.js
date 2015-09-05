@@ -30,7 +30,7 @@ widgetsApp.controller('MainCtrl',['$scope','$http',
         $scope.preview = function(i){
             $scope.w = $scope.widgets[i];
             console.log($scope.w);
-            $("#modalTechs").modal()
+            $("#widgetModal").modal()
         };
         $scope.filterFunction = function(element) {
             if($scope.query && typeof $scope.query.toLowerCase === "function"){
