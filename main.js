@@ -16,7 +16,10 @@ widgetsApp.controller('MainCtrl',['$scope','$http', '$translate',
             then(function(response) {
                 var widgets = [];
                 response.data.widgets.forEach(function(elem){
-                    if(elem.published){ widgets.push(elem); }
+                    if(elem.published){
+                        elem.id = widgets.length;
+                        widgets.push(elem);
+                    }
                 });
                 $scope.widgets = widgets;
             });
