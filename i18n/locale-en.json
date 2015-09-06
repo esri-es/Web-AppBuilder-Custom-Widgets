@@ -1,0 +1,243 @@
+{
+    "TITLE": "Custom widgets directory",
+    "SUBMIT NEW WIDGET": "Submit new widget",
+    "FILTER": "Filter",
+    "OF": "of",
+    "AUTHOR": "Author",
+    "DESCRIPTION": "Description",
+    "DOWNLOAD": "Download",
+    "INFO": "Info",
+    "CLOSE": "Close",
+    "widgets": [
+        {
+            "id": 0,
+            "published": true,
+            "name": "Location Widget 1.3",
+            "description": "Identify a point using reverse geocoding: latitude & longitude, latitude & longitude (in degrees, minutes, seconds), x & y & WKID, USNG / MGRS",
+            "demo": "http://timw1984.github.io/WebApp-Location/",
+            "download": "https://geonet.esri.com/servlet/JiveServlet/download/3262-7-123364/LocationV1.3.zip",
+            "info": "https://geonet.esri.com/docs/DOC-3262",
+            "author": "Tim Witt"
+        },
+        {
+            "id": 1,
+            "published": true,
+            "name": "Print Plus Widget Version 1.1.6",
+            "description": "Select a print area, specify the layout, formatting, scaling, if the title is displayed and the layout",
+            "demo": "http://gis.hamiltoncounty.in.gov/mapviewer/index.html",
+            "download": "https://geonet.esri.com/external-link.jspa?url=ftp://ftp.hamiltoncounty.in.gov/GIS/AWAB/PrintPlus-1.1.6-2015-7-12.zip",
+            "info": "https://geonet.esri.com/docs/DOC-3841",
+            "author": "Larry Stout"
+        },
+        {
+            "id": 2,
+            "published": true,
+            "name": "Share Widget Version 1.2.0.1",
+            "description": "Share a map extent, buttons share on Facebook, Twitter, Google+, Email and BROOCHES. Window code to copy and embed the map in another HTML page URL shortened using Bitly",
+            "demo": "http://gis.calhouncounty.org/WAB/V1.2/widgets/share/index.html",
+            "download": "https://geonet.esri.com/servlet/JiveServlet/downloadBody/3247-102-5-8184/Share.zip",
+            "info": "https://geonet.esri.com/docs/DOC-3247",
+            "author": "Larry Stout"
+        },
+        {
+            "id": 3,
+            "published": true,
+            "name": "Zoom Prev Next Widget Version 1.1.1",
+            "description": "Keeps a record of the extensions can move forward and backward",
+            "demo": "http://gis.hamiltoncounty.in.gov/mapviewer/index.html",
+            "download": "ftp://ftp.hamiltoncounty.in.gov/GIS/AWAB/ZoomPrevNext-1.1.1-2015-5-13.zip",
+            "info": "https://geonet.esri.com/docs/DOC-6111",
+            "author": "Larry Stout"
+        },
+        {
+            "id": 4,
+            "published": true,
+            "name": "Anvil Widget Version 1.1",
+            "description": "It is invisible and is loaded at startup. It allow you to add features such as display hints, modify other widgets, etc. It has no preview because it is invisible.",
+            "demo": "",
+            "download": "ftp://ftp.hamiltoncounty.in.gov/GIS/AWAB/Anvil-1.1-2015-5-21.zip",
+            "info": "https://geonet.esri.com/docs/DOC-6225",
+            "author": "Larry Stout"
+        },
+        {
+            "id": 5,
+            "published": true,
+            "name": "Identify Widget Version 1.2",
+            "description": "Lets you find features in the selected layer and the shape of the selection",
+            "demo": "http://gis.calhouncounty.org/WAB/V1.2/widgets/Identify/index.html",
+            "download": "https://geonet.esri.com/servlet/JiveServlet/downloadBody/3250-102-6-8133/Identify.zip",
+            "info": "https://geonet.esri.com/docs/DOC-3250",
+            "author": "Robert J Scheitlin"
+        },
+        {
+            "id": 6,
+            "published": true,
+            "name": "Google Street View Widget 1.2",
+            "description": "Drag the Street View icon and displays the images in a modal window",
+            "demo": "http://gis.calhouncounty.org/WAB/V1.2/widgets/StreetView/index.html",
+            "download": "https://geonet.esri.com/servlet/JiveServlet/downloadBody/2991-102-5-8131/StreetView.zip",
+            "info": "https://geonet.esri.com/docs/DOC-2991",
+            "author": "Robert J Scheitlin"
+        },
+        {
+            "id": 7,
+            "published": true,
+            "name": "Enhanced Search Widget Version 1.2.0.2",
+            "description": "",
+            "demo": "https://geonet.esri.com/external-link.jspa?url=http://gis.calhouncounty.org/WAB/V1.2/widgets/eSearch/index.html?esearch=I-71&slayer=1&exprnum=0",
+            "download": "https://geonet.esri.com/servlet/JiveServlet/downloadBody/1731-102-35-8168/eSearch.zip",
+            "info": "https://geonet.esri.com/docs/DOC-1731",
+            "author": "Robert J Scheitlin"
+        },
+        {
+            "id": 8,
+            "published": true,
+            "name": "Map Progress Indicator Widget Version 1.2",
+            "description": "Displays an icon of \"busy\" indicating that the map data is been updated",
+            "demo": "https://geonet.esri.com/external-link.jspa?url=http://gis.calhouncounty.org/WAB/V1.2/widgets/MapProgress/index.html",
+            "download": "https://geonet.esri.com/servlet/JiveServlet/downloadBody/6416-102-3-8132/MapProgress.zip",
+            "info": "https://geonet.esri.com/docs/DOC-6416",
+            "author": "Robert J Scheitlin"
+        },
+        {
+            "id": 9,
+            "published": true,
+            "name": "Elevation Profile Widget v1.2",
+            "description": "Shows a graph of the elevation profile. You can set parameters such as color, font, etc. by configuration interface widget",
+            "demo": "http://gis.calhouncounty.org/WAB/V1.2/widgets/ElevationProfile/index.html",
+            "download": "https://geonet.esri.com/servlet/JiveServlet/downloadBody/3342-102-5-8139/ElevationProfile.zip",
+            "info": "https://geonet.esri.com/docs/DOC-3342",
+            "author": "Robert J Scheitlin"
+        },
+        {
+            "id": 10,
+            "published": true,
+            "name": "Enhanced Basemap Gallery Beta 1.1",
+            "description": "Allows create hybrid maps mixing two basemaps",
+            "demo": "http://gis.calhouncounty.org/WAB/V1.1/widgets/eBasemapGallery/index.html",
+            "download": "https://geonet.esri.com/servlet/JiveServlet/downloadBody/2888-102-4-3701/eBasemapGallery.zip",
+            "info": "https://geonet.esri.com/docs/DOC-2888",
+            "author": "Robert J Scheitlin"
+        },
+        {
+            "id": 11,
+            "published": true,
+            "name": "LocalLayer Widget 1.2",
+            "description": "Allows add directly map services to a Web AppBuilder application without wrapping services in a Webmap",
+            "demo": "",
+            "download": "https://github.com/cmndrbensisko/LocalLayer/archive/master.zip",
+            "info": "https://geonet.esri.com/blogs/myAlaskaGIS/2015/02/04/tips-for-using-the-custom-locallayer-widget-with-wab-dev-edition",
+            "author": "Adam Drackley and Robert Scheitlin"
+        },
+        {
+            "id": 12,
+            "published": true,
+            "name": "BombThread widget",
+            "description": "Determine the radius of the explosion on the type of pump and the selected location",
+            "demo": "",
+            "download": "",
+            "info": "https://github.com/Esri/solutions-webappbuilder-widgets/blob/master/BombThreat/README.md",
+            "author": "Esri Solutions teams"
+        },
+        {
+            "id": 13,
+            "published": true,
+            "name": "Swipe",
+            "description": "It allows filtering layers that appear in the left side of the swipe, set the type of swipe (vertical, horizontal or magnifying glass) and size",
+            "demo": "http://gis.hamiltoncounty.in.gov/mapviewer/index.html",
+            "download": "ftp://ftp.hamiltoncounty.in.gov/GIS/AWAB/SwipePlus-1.1.3-2015-4-11.zip",
+            "info": "https://geonet.esri.com/docs/DOC-3825",
+            "author": "Larry Stout"
+        },
+        {
+            "id": 14,
+            "published": false,
+            "name": "MissionEditor widget",
+            "description": "",
+            "demo": "",
+            "download": "",
+            "info": "https://github.com/Esri/solutions-webappbuilder-widgets/blob/master/MissionEditor/README.md",
+            "author": "Esri Solutions teams"
+        },
+        {
+            "id": 15,
+            "published": false,
+            "name": "CI_KR_Chart widget",
+            "description": "Chart critical infrastructure",
+            "demo": "",
+            "download": "",
+            "info": "https://github.com/Esri/solutions-webappbuilder-widgets/blob/master/CI_KR_Chart/README.md",
+            "author": "Esri Solutions teams"
+        },
+        {
+            "id": 16,
+            "published": false,
+            "name": "DirectionsWithBarriers",
+            "description": "",
+            "demo": "",
+            "download": "",
+            "info": "https://github.com/Esri/solutions-webappbuilder-widgets/blob/master/DirectionsWithBarriers/README.md",
+            "author": "Esri Solutions teams"
+        },
+        {
+            "id": 17,
+            "published": false,
+            "name": "Emergency Response Guide widget",
+            "description": "",
+            "demo": "",
+            "download": "",
+            "info": "https://github.com/Esri/solutions-webappbuilder-widgets/blob/master/ERG/README.md",
+            "author": "Esri Solutions teams"
+        },
+        {
+            "id": 18,
+            "published": false,
+            "name": "GeoEnrich",
+            "description": "",
+            "demo": "",
+            "download": "",
+            "info": "https://github.com/Esri/solutions-webappbuilder-widgets/blob/master/GeoEnrich/README.md",
+            "author": "Esri Solutions teams"
+        },
+        {
+            "id": 19,
+            "published": true,
+            "name": "Batch Editor widget",
+            "description": "Permite seleccionar un conjunto de entidades usando las formas u otra capa y editar todos sus atributos simultáneamente",
+            "demo": "",
+            "download": "",
+            "info": "https://github.com/USEPA/Public_Web_AppBuilder/tree/master/widgets/BatchEditor",
+            "author": "Esri Solutions teams"
+        },
+        {
+            "id": 20,
+            "published": false,
+            "name": "CostAnalysis widget",
+            "description": "",
+            "demo": "",
+            "download": "",
+            "info": "https://github.com/Esri/solutions-webappbuilder-widgets/blob/CostAnalysis/CostAnalysis/README.md",
+            "author": "Esri Solutions teams"
+        },
+        {
+            "id": 21,
+            "published": true,
+            "name": "eDraw widget",
+            "description": "Draw shapes, add title and description, modify styles, toggle windows information, change the order of the drawings, etc.",
+            "demo": "http://apps.magis.nc/maps/wab-widgets/?extent=17918900,-2706198,19092972,-2154016,102100",
+            "download": "https://geonet.esri.com/external-link.jspa?url=https://github.com/magis-nc/esri-webappbuilder-widget-eDraw/releases/latest",
+            "info": "https://geonet.esri.com/thread/122331",
+            "author": "Jeremie C"
+        },
+        {
+            "id": 22,
+            "published": true,
+            "name": "Add Shapefile Widget",
+            "description": "Upload shapefiles to webmaps as a feature layer (operational layer)",
+            "demo": "",
+            "download": "https://github.com/URSpatial/WAB_AddShapefile/archive/master.zip",
+            "info": "https://geonet.esri.com/message/540150#540150",
+            "author": ""
+        }
+    ]
+}

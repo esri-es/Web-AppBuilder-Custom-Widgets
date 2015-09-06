@@ -1,30 +1,24 @@
-"use strict"
-var widgetsApp = angular.module('widgetsDirectory', []);
+"use strict";
 
-widgetsApp.controller('MainCtrl',['$scope','$http',
-    function ($scope, $http) {
+var widgetsApp = angular.module('widgetsDirectory', ['pascalprecht.translate'], ['$translateProvider', function ($translateProvider) {
+    $translateProvider.useStaticFilesLoader({
+        prefix: 'i18n/locale-',
+        suffix: '.json'
+    });
+    $translateProvider.preferredLanguage('en');
+}]);
+
+widgetsApp.controller('MainCtrl',['$scope','$http', '$translate',
+    function ($scope, $http, $translate) {
         $scope.organizadores = 'https://spreadsheets.google.com/feeds/list/13DPK0RYJTqj_vSJj9y_UKEemX04Z59vB-QEddIAc5CE/1/public/values?alt=json-in-script&callback=JSON_CALLBACK';
 
-        $http({method: 'JSONP', url: $scope.organizadores}).
-            success(function(data, status) {
-                $scope.status = status;
-
+        $http.get('i18n/locale-en.json').
+            then(function(response) {
                 var widgets = [];
-                data.feed.entry.forEach(function(elem){
-                    if(elem.gsx$publico.$t){
-                        elem.index = widgets.length;
-                        widgets.push(elem);
-                    }
-
+                response.data.widgets.forEach(function(elem){
+                    if(elem.published){ widgets.push(elem); }
                 });
-
-                console.log(widgets);
                 $scope.widgets = widgets;
-                console.log($scope.widgets);
-            }).
-            error(function(data, status) {
-                $scope.events = data || 'Request failed';
-                $scope.status = status;
             });
 
         $scope.preview = function(i){
@@ -32,23 +26,30 @@ widgetsApp.controller('MainCtrl',['$scope','$http',
             console.log($scope.w);
             $("#widgetModal").modal()
         };
+
         $scope.filterFunction = function(element) {
             if($scope.query && typeof $scope.query.toLowerCase === "function"){
-                var name = element.gsx$nombre.$t.toLowerCase(),
-                    desc = element.gsx$descripcion.$t.toLowerCase(),
+                var name = element.name.toLowerCase(),
+                    desc = element.description.toLowerCase(),
                     w = $scope.query.toLowerCase();
 
                 return (name.indexOf(w) !== -1 || desc.indexOf(w) !== -1) ? true : false;
             }else{
-                if(!$scope.query){
-                    return true;
-                }else{
-                    return false;
-                }
-
-
+                return !$scope.query;
             }
+        };
 
+        $scope.changeLanguage = function(lang) {
+            $translate.use(lang);
+
+            $http.get('i18n/locale-'+lang+'.json').
+                then(function(response) {
+                    var widgets = [];
+                    response.data.widgets.forEach(function(elem){
+                        if(elem.published){ widgets.push(elem); }
+                    });
+                    $scope.widgets = widgets;
+                });
         };
     }
 ]);
@@ -58,4 +59,3 @@ widgetsApp.filter('trusted', ['$sce', function ($sce) {
         return $sce.trustAsResourceUrl(url);
     };
 }]);
-

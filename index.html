@@ -15,8 +15,12 @@
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2 text-center">
+            <ul id="language">
+                <li ng-click="changeLanguage('es')">Español</li>
+                <li ng-click="changeLanguage('en')">English</li>
+            </ul>
             <h1 class="text-muted">Web AppBuilder for ArcGIS</h1>
-            <h2>Custom Widgets Directory</h2>
+            <h2>{{ 'TITLE' | translate }}</h2>
         </div>
     </div>
 
@@ -24,7 +28,7 @@
         <div class="col-md-8 search-bar col-md-offset-2">
             <div class="input-group">
                 <span class="input-group-addon" id="basic-addon1"><i class="glyphicon glyphicon-search"></i></span>
-                <input ng-model="query" type="text" class="form-control" placeholder="Filtrar" aria-describedby="basic-addon1">
+                <input ng-model="query" type="text" class="form-control" placeholder="{{ 'FILTER' | translate }}" aria-describedby="basic-addon1">
             </div>
         </div>
 
@@ -32,17 +36,17 @@
             <div class="clearfix">
                 <p class="pull-left">
                     <button class="btn btn-success btn-xs" type="button" data-toggle="modal" data-target="#formModal">
-                        <i class="glyphicon glyphicon-send glyphicon " style="margin-right: 5px"></i> Enviar nuevo widget
+                        <i class="glyphicon glyphicon-send glyphicon " style="margin-right: 5px"></i> {{ 'SUBMIT NEW WIDGET' | translate }}
                     </button>
                 </p>
-                <p class="pull-right ">Widgets: {{filtered.length}} de {{widgets.length}}</p>
+                <p class="pull-right ">Widgets: {{filtered.length}} {{ 'OF' | translate }} {{widgets.length}}</p>
             </div>
             <ul id="widget-list">
-                <li ng-repeat="w in filtered = (widgets | filter:filterFunction)" ng-click='preview(w.index)'>
-                    <strong>{{w.gsx$nombre.$t}}</strong>
-                    {{w.gsx$descripcion.$t}}<br>
-                    <span class="author">Autor: {{w.gsx$autor.$t}}</span>
-                    <button class="btn btn-primary" ng-click='preview(w.index)'><i class="glyphicon glyphicon-eye-open"></i></button>
+                <li ng-repeat="w in filtered = (widgets | filter:filterFunction)" ng-click='preview(w.id)'>
+                    <strong>{{w.name}}</strong>
+                    {{w.description}}<br>
+                    <span class="author">{{ 'AUTHOR' | translate }}: {{w.author}}</span>
+                    <button class="btn btn-primary" ng-click='preview(w.id)'><i class="glyphicon glyphicon-eye-open"></i></button>
                 </li>
             </ul>
 
@@ -63,32 +67,32 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title" id="myModalLabel">{{w.gsx$nombre.$t}}</h4>
+                <h4 class="modal-title" id="myModalLabel">{{w.name}}</h4>
             </div>
             <div class="modal-body">
                 <p>
-                    <strong>Autor:</strong> {{w.gsx$autor.$t}}
+                    <strong>{{ 'AUTHOR' | translate }}:</strong> {{w.author}}
                 </p>
                 <p>
-                    <strong>Descripción:</strong> {{w.gsx$descripcion.$t}}
+                    <strong>{{ 'DESCRIPTION' | translate }}:</strong> {{w.description}}
                 </p>
 
 
-                <p ng-if="!w.gsx$urldemo.$t"><strong>Preview:</strong> Este widget no tiene previsualización</p>
+                <p ng-if="!w.demo"><strong>Preview:</strong> Este widget no tiene previsualización</p>
 
-                <iframe ng-if="w.gsx$urldemo.$t" ng-src="{{w.gsx$urldemo.$t | trusted}}"></iframe>
+                <iframe ng-if="w.demo" ng-src="{{w.demo | trusted}}"></iframe>
 
             </div>
             <div class="modal-footer">
                 <div class="btn-group pull-left" role="group" aria-label="...">
-                    <a class="btn btn-warning" type="button" class="btn btn-default" href="{{w.gsx$urldescarga.$t}}" target="_blank">
-                        Descargar <i class="glyphicon glyphicon-arrow-down"></i>
+                    <a class="btn btn-warning" type="button" class="btn btn-default" href="{{w.download}}" target="_blank">
+                        {{ 'DOWNLOAD' | translate }} <i class="glyphicon glyphicon-arrow-down"></i>
                     </a>
-                    <a class="btn btn-primary" type="button" class="btn btn-default" href="{{w.gsx$info.$t}}">
-                        Info <i class="glyphicon glyphicon-info-sign"></i>
+                    <a class="btn btn-primary" type="button" class="btn btn-default" href="{{w.info}}">
+                        {{ 'INFO' | translate }} <i class="glyphicon glyphicon-info-sign"></i>
                     </a>
                 </div>
-                <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">{{ 'CLOSE' | translate }}</button>
             </div>
         </div>
 
@@ -99,13 +103,13 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title">Enviar nuevo widget</h4>
+                <h4 class="modal-title">{{ 'SUBMIT NEW WIDGET' | translate }}</h4>
             </div>
             <div class="modal-body">
                 <iframe src="https://docs.google.com/forms/d/1M9VwuGpCqs9c5bJTlBaOWHeADPbn7fZozwSdiQCUQCs/viewform"></iframe>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">{{ 'CLOSE' | translate }}</button>
             </div>
         </div>
 
@@ -120,8 +124,10 @@
 <a href="http://www.esri.es" target="_blank"><img src="images/esri_espana.jpg" id="esriLogo"></a>
 
 <a href="https://github.com/esri-es/Web-AppBuilder-Custom-Widgets"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
-<script type="text/javascript" src="http://js.arcgis.com/3.12compact"></script>
+
 <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.js"></script>
+<script src="bower_components/angular-translate/angular-translate.min.js"></script>
+<script src="bower_components/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js"></script>
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/bootstrap/js/modal.js"></script>
 <script src="main.js"></script>
