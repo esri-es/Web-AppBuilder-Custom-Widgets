@@ -90,8 +90,8 @@
             "id": 7,
             "published": true,
             "name": "Enhanced Search Widget Version 1.2.0.2",
-            "description": "",
-            "demo": "https://geonet.esri.com/external-link.jspa?url=http://gis.calhouncounty.org/WAB/V1.2/widgets/eSearch/index.html?esearch=I-71&slayer=1&exprnum=0",
+            "description": "Allows for searhing map services by value, by graphics, and by spatial relationship. Results are displayed in the widget, popups, and can be confiured to dispaly in the attribute table widget. This widget is alow able to search based a url parameters provided.",
+            "demo": "http://gis.calhouncounty.org/WAB/V1.2/widgets/eSearch/index.html?esearch=I-71&slayer=1&exprnum=0",
             "download": "https://geonet.esri.com/servlet/JiveServlet/downloadBody/1731-102-35-8168/eSearch.zip",
             "info": "https://geonet.esri.com/docs/DOC-1731",
             "author": "Robert J Scheitlin",
@@ -102,7 +102,7 @@
             "published": true,
             "name": "Map Progress Indicator Widget Version 1.2",
             "description": "Displays an icon of \"busy\" indicating that the map data is been updated",
-            "demo": "https://geonet.esri.com/external-link.jspa?url=http://gis.calhouncounty.org/WAB/V1.2/widgets/MapProgress/index.html",
+            "demo": "http://gis.calhouncounty.org/WAB/V1.2/widgets/MapProgress/index.html",
             "download": "https://geonet.esri.com/servlet/JiveServlet/downloadBody/6416-102-3-8132/MapProgress.zip",
             "info": "https://geonet.esri.com/docs/DOC-6416",
             "author": "Robert J Scheitlin",
@@ -138,7 +138,7 @@
             "demo": "",
             "download": "https://github.com/cmndrbensisko/LocalLayer/archive/master.zip",
             "info": "https://geonet.esri.com/blogs/myAlaskaGIS/2015/02/04/tips-for-using-the-custom-locallayer-widget-with-wab-dev-edition",
-            "author": "Adam Drackley and Robert Scheitlin",
+            "author": "Adam Drackley and Robert J Scheitlin",
             "author_link": "https://geonet.esri.com/people/rscheitlin"
         },
         {
