@@ -67,7 +67,7 @@
         {
             "id": 5,
             "published": true,
-            "name": "Identify Widget Version 1.2",
+            "name": "Identify Widget Version 1.2.0.2",
             "description": "Lets you find features in the selected layer and the shape of the selection",
             "demo": "http://gis.calhouncounty.org/WAB/V1.2/widgets/Identify/index.html",
             "download": "https://geonet.esri.com/servlet/JiveServlet/downloadBody/3250-102-6-8133/Identify.zip",
@@ -89,7 +89,7 @@
         {
             "id": 7,
             "published": true,
-            "name": "Enhanced Search Widget Version 1.2.0.2",
+            "name": "Enhanced Search Widget Version 1.2.0.3",
             "description": "Allows for searhing map services by value, by graphics, and by spatial relationship. Results are displayed in the widget, popups, and can be confiured to dispaly in the attribute table widget. This widget is alow able to search based a url parameters provided.",
             "demo": "http://gis.calhouncounty.org/WAB/V1.2/widgets/eSearch/index.html?esearch=I-71&slayer=1&exprnum=0",
             "download": "https://geonet.esri.com/servlet/JiveServlet/downloadBody/1731-102-35-8168/eSearch.zip",
