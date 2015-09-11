@@ -68,7 +68,7 @@
         {
             "id": 5,
             "published": true,
-            "name": "Identify Widget Version 1.2",
+            "name": "Identify Widget Version 1.2.0.2",
             "description": "Permite buscar entidades en la capa seleccionada y la forma geométrica de la selección",
             "demo": "http://gis.calhouncounty.org/WAB/V1.2/widgets/Identify/index.html",
             "download": "https://geonet.esri.com/servlet/JiveServlet/downloadBody/3250-102-6-8133/Identify.zip",
@@ -90,7 +90,7 @@
         {
             "id": 7,
             "published": true,
-            "name": "Enhanced Search Widget Version 1.2.0.2",
+            "name": "Enhanced Search Widget Version 1.2.0.3",
             "description": "Buscar por forma, atrib",
             "demo": "https://geonet.esri.com/external-link.jspa?url=http://gis.calhouncounty.org/WAB/V1.2/widgets/eSearch/index.html?esearch=I-71&slayer=1&exprnum=0",
             "download": "https://geonet.esri.com/servlet/JiveServlet/downloadBody/1731-102-35-8168/eSearch.zip",
