@@ -1,0 +1,53 @@
+<div style="width:100%;">
+  <p>${nls.disclaimer}: <a href='https://help.disqus.com/customer/portal/articles/472097-universal-embed-code'>https://help.disqus.com/customer/portal/articles/472097-universal-embed-code</a></p>
+  <form action="#">
+    <table class="setting-table input-table" cellspacing="0">
+      <tbody>
+        <tr>
+          <td class="first">${nls.shortName}</td>
+          <td class="second">
+            <input
+              type="text"
+              data-dojo-type="dijit/form/TextBox"
+              required="true"
+              placeHolder="desarrolladoresesries"
+              data-dojo-attach-point="shortName"
+              data-dojo-props='style:{width:"400px"}, trim:true'
+            />
+          </td>
+          <td class="third">
+            <div class="help-icon"></div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="first">${nls.pageUrl}</td>
+          <td class="second">
+            <input
+              type="text"
+              data-dojo-type="dijit/form/TextBox"
+              required="true"
+              placeHolder="http://..."
+              data-dojo-attach-point="pageUrl"
+              data-dojo-props='style:{width:"400px"}, trim:true'
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td class="first">${nls.pageIdentifier}</td>
+          <td class="second">
+            <input
+              type="text"
+              data-dojo-type="dijit/form/TextBox"
+              required="true"
+              placeHolder="Unique ID, for example: your app ID"
+              data-dojo-attach-point="pageIdentifier"
+              data-dojo-props='style:{width:"400px"}, trim:true'
+            />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </form>
+</div>
