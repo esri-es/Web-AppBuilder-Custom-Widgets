@@ -267,7 +267,7 @@
             "published": true,
             "name": "Disqus Widget",
             "description": "Add a widget to allow users to add comments using Disqus.com",
-            "demo": "",
+            "demo": "http://desarrolladores.esri.es/code/WAB-Widgets/Disqus/",
             "download": "https://github.com/esri-es/Web-AppBuilder-Custom-Widgets/archive/master.zip",
             "info": "https://github.com/esri-es/Web-AppBuilder-Custom-Widgets/tree/master/Disqus",
             "author": "Raúl Jiménez",
