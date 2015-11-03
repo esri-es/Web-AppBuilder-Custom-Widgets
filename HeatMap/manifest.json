@@ -1,0 +1,19 @@
+{
+  "name": "HeatMap",
+  "label": "HeatMap",
+  "2D": true,
+  "3D": false,
+  "platform": "HTML",
+  "version": "0.0.1",
+  "author": "TODO: your name here",
+  "description": "A custom Web AppBuilder widget.",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+    "inPanel": false,
+    "hasLocale": false,
+    "hasStyle": false,
+    "hasConfig": true,
+    "hasUIFile": false
+  }
+}
