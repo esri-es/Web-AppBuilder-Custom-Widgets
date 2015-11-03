@@ -283,7 +283,19 @@
             "info": "https://github.com/esri-es/Web-AppBuilder-Custom-Widgets/tree/master/Html",
             "author": "Raúl Jiménez",
             "author_link": "https://github.com/hhkaos"
+        },
+        {
+            "id": 25,
+            "published": true,
+            "name": "Heatmap Widget",
+            "description": "Off-panel (or onScreen) widget to load a feature layer using the HeatMapRenderer",
+            "demo": "http://desarrolladores.esri.es/code/WAB-Widgets/Heatmap/",
+            "download": "https://github.com/esri-es/Web-AppBuilder-Custom-Widgets/archive/master.zip",
+            "info": "https://github.com/esri-es/Web-AppBuilder-Custom-Widgets/tree/master/Html",
+            "author": "Raúl Jiménez",
+            "author_link": "https://github.com/hhkaos"
         }
+        
         
     ]
 }
