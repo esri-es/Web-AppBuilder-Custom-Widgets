@@ -262,6 +262,17 @@
             "info": "https://geonet.esri.com/message/540150#540150",
             "author": "",
             "author_link": ""
+        },
+        {
+            "id": 23,
+            "published": true,
+            "name": "Disqus Widget",
+            "description": "Añadir un widget que permite que los usuarios comenten en la aplicación usando Disqus.com",
+            "demo": "",
+            "download": "https://github.com/esri-es/Web-AppBuilder-Custom-Widgets/archive/master.zip",
+            "info": "https://github.com/esri-es/Web-AppBuilder-Custom-Widgets/tree/master/Disqus",
+            "author": "Raúl Jiménez",
+            "author_link": "https://github.com/hhkaos"
         }
     ]
 }
