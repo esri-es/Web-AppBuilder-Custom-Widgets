@@ -292,7 +292,7 @@
             "description": "Widget off-panel (o onScreen) que carga un servicio de entidades usando el renderizador de mapa de calor",
             "demo": "http://desarrolladores.esri.es/code/WAB-Widgets/Heatmap/",
             "download": "https://github.com/esri-es/Web-AppBuilder-Custom-Widgets/archive/master.zip",
-            "info": "https://github.com/esri-es/Web-AppBuilder-Custom-Widgets/tree/master/Html",
+            "info": "https://github.com/esri-es/Web-AppBuilder-Custom-Widgets/tree/master/HeatMap",
             "author": "Raúl Jiménez",
             "author_link": "https://github.com/hhkaos"
         }
