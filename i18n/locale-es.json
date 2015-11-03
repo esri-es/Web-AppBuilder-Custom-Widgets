@@ -273,6 +273,17 @@
             "info": "https://github.com/esri-es/Web-AppBuilder-Custom-Widgets/tree/master/Disqus",
             "author": "Raúl Jiménez",
             "author_link": "https://github.com/hhkaos"
+        },
+        {
+            "id": 24,
+            "published": true,
+            "name": "HTML Widget",
+            "description": "In-panel widget que permite añadir código HTML",
+            "demo": "http://desarrolladores.esri.es/code/WAB-Widgets/HTML/",
+            "download": "https://github.com/esri-es/Web-AppBuilder-Custom-Widgets/archive/master.zip",
+            "info": "https://github.com/esri-es/Web-AppBuilder-Custom-Widgets/tree/master/Html",
+            "author": "Raúl Jiménez",
+            "author_link": "https://github.com/hhkaos"
         }
     ]
 }
