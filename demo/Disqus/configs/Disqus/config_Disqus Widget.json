@@ -1,0 +1,10 @@
+{
+  "widgetName": "Disqus",
+  "inPanelVar": {
+    "params": {
+      "shortName": "esrispaingithub",
+      "pageUrl": "http://esri-es.github.io/Web-AppBuilder-Custom-Widgets/demo/Disqus",
+      "pageIdentifier": "DisqusDemo"
+    }
+  }
+}
