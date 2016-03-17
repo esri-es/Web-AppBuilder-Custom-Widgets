@@ -295,6 +295,18 @@
             "info": "https://github.com/esri-es/Web-AppBuilder-Custom-Widgets/tree/master/HeatMap",
             "author": "Raúl Jiménez",
             "author_link": "https://github.com/hhkaos"
+        },
+        {
+            "id": 26,
+            "published": true,
+            "name": "Image Discovery",
+            "description": "Permite buscar y encontrar imágenes contenidas entre múltiples serviciso de imágenes.",
+            "demo": "",
+            "download": "https://github.com/Esri/solutions-webappbuilder-widgets/archive/master.zip",
+            "info": "https://github.com/Esri/solutions-webappbuilder-widgets/blob/master/ImageDiscovery/README.md",
+            "author": "Esri Solutions team",
+            "author_link": "https://github.com/Esri/solutions-webappbuilder-widgets/graphs/contributors"
         }
+        
     ]
 }
