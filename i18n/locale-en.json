@@ -305,6 +305,17 @@
             "info": "https://github.com/Esri/solutions-webappbuilder-widgets/blob/master/ImageDiscovery/README.md",
             "author": "Esri Solutions team",
             "author_link": "https://github.com/Esri/solutions-webappbuilder-widgets/graphs/contributors"
+        },
+        {
+            "id": 27,
+            "published": true,
+            "name": "Mapillary",
+            "description": "Load street level fotos and navigate like in Google Street View",
+            "demo": "http://mapillary.github.io/Mapillary-WebAppWidget/",
+            "download": "https://github.com/mapillary/Mapillary-WebAppWidget/archive/master.zip",
+            "info": "https://github.com/mapillary/Mapillary-WebAppWidget",
+            "author": "Mapillary & community",
+            "author_link": "https://github.com/mapillary/Mapillary-WebAppWidget/graphs/contributors"
         }
         
         
