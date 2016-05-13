@@ -317,6 +317,17 @@
             "info": "https://github.com/mapillary/Mapillary-WebAppWidget",
             "author": "Mapillary & community",
             "author_link": "https://github.com/mapillary/Mapillary-WebAppWidget/graphs/contributors"
+        },
+        {
+            "id": 28,
+            "published": true,
+            "name": "Table Query Widget",
+            "description": "Widget donde podemos mostrar las entidades de un servicio en una tabla y elegir que campo se muestra en cada columna, mostrar los elementos en el mapa clicando sobre ellos y establecer una bateria de consultas SQL a traves de menús desplegables",
+            "demo": "http://jimeno0.github.io/TableQueryWidget/",
+            "download": "https://github.com/Jimeno0/TableQueryWidget/archive/master.zip",
+            "info": "https://github.com/Jimeno0/TableQueryWidget",
+            "author": "Carlos Pérez",
+            "author_link": "https://github.com/Jimeno0"
         }
         
     ]
