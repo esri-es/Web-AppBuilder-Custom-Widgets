@@ -261,6 +261,74 @@
             "info": "https://geonet.esri.com/message/540150#540150",
             "author": "",
             "author_link": ""
+        },
+        {
+            "id": 23,
+            "published": true,
+            "name": "Disqus Widget",
+            "description": "Add a widget to allow users to add comments using Disqus.com",
+            "demo": "http://desarrolladores.esri.es/code/WAB-Widgets/Disqus/",
+            "download": "https://github.com/esri-es/Web-AppBuilder-Custom-Widgets/archive/master.zip",
+            "info": "https://github.com/esri-es/Web-AppBuilder-Custom-Widgets/tree/master/Disqus",
+            "author": "Raúl Jiménez",
+            "author_link": "https://github.com/hhkaos"
+        },
+        {
+            "id": 24,
+            "published": true,
+            "name": "HTML Widget",
+            "description": "In-panel widget to add custom HTML",
+            "demo": "http://desarrolladores.esri.es/code/WAB-Widgets/HTML/",
+            "download": "https://github.com/esri-es/Web-AppBuilder-Custom-Widgets/archive/master.zip",
+            "info": "https://github.com/esri-es/Web-AppBuilder-Custom-Widgets/tree/master/Html",
+            "author": "Raúl Jiménez",
+            "author_link": "https://github.com/hhkaos"
+        },
+        {
+            "id": 25,
+            "published": true,
+            "name": "Heatmap Widget",
+            "description": "Off-panel (or onScreen) widget to load a feature layer using the HeatMapRenderer",
+            "demo": "http://desarrolladores.esri.es/code/WAB-Widgets/Heatmap/",
+            "download": "https://github.com/esri-es/Web-AppBuilder-Custom-Widgets/archive/master.zip",
+            "info": "https://github.com/esri-es/Web-AppBuilder-Custom-Widgets/tree/master/HeatMap",
+            "author": "Raúl Jiménez",
+            "author_link": "https://github.com/hhkaos"
+        },
+        {
+            "id": 26,
+            "published": true,
+            "name": "Image Discovery",
+            "description": "The Image Discovery widget allows users to search and discovery imagery contained across multiple image services.",
+            "demo": "",
+            "download": "https://github.com/Esri/solutions-webappbuilder-widgets/archive/master.zip",
+            "info": "https://github.com/Esri/solutions-webappbuilder-widgets/blob/master/ImageDiscovery/README.md",
+            "author": "Esri Solutions team",
+            "author_link": "https://github.com/Esri/solutions-webappbuilder-widgets/graphs/contributors"
+        },
+        {
+            "id": 27,
+            "published": true,
+            "name": "Mapillary",
+            "description": "Load street level fotos and navigate like in Google Street View",
+            "demo": "http://mapillary.github.io/Mapillary-WebAppWidget/",
+            "download": "https://github.com/mapillary/Mapillary-WebAppWidget/archive/master.zip",
+            "info": "https://github.com/mapillary/Mapillary-WebAppWidget",
+            "author": "Mapillary & community",
+            "author_link": "https://github.com/mapillary/Mapillary-WebAppWidget/graphs/contributors"
+        },
+        {
+            "id": 28,
+            "published": true,
+            "name": "Table Query Widget",
+            "description": "A custom widget where you can display your features with the atributes of your choice, display elements on the map by clicking them and set a bunch of SQL querys in some dropmdown buttons",
+            "demo": "http://jimeno0.github.io/TableQueryWidget/",
+            "download": "https://github.com/Jimeno0/TableQueryWidget/archive/master.zip",
+            "info": "https://github.com/Jimeno0/TableQueryWidget",
+            "author": "Carlos Pérez",
+            "author_link": "https://github.com/Jimeno0"
         }
+        
+        
     ]
 }
