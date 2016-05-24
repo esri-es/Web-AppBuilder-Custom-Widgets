@@ -9,18 +9,34 @@
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="http://js.arcgis.com/3.12/esri/css/esri.css">
     <link rel="stylesheet" type="text/css" href="main.css">
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
 </head>
 <body ng-controller="MainCtrl">
 
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2 text-center">
+            <!-- Place this tag where you want the button to render. -->
+            
             <ul id="language">
                 <li ng-click="changeLanguage('es')">Español</li>
                 <li ng-click="changeLanguage('en')">English</li>
             </ul>
-            <h1 class="text-muted">Web AppBuilder for ArcGIS</h1>
-            <h2>{{ 'TITLE' | translate }}</h2>
+            <h1 class="text-muted">Web AppBuilder for ArcGIS - {{ 'TITLE' | translate }}</h1>
+            <div class="github">
+                
+                    <a class="github-button" href="https://github.com/esri-es/Web-AppBuilder-Custom-Widgets" data-icon="octicon-eye" data-style="mega" data-count-href="/esri-es/Web-AppBuilder-Custom-Widgets/watchers" data-count-api="/repos/esri-es/Web-AppBuilder-Custom-Widgets#subscribers_count" data-count-aria-label="# watchers on GitHub" aria-label="Watch esri-es/Web-AppBuilder-Custom-Widgets on GitHub">Watch</a>
+                
+                
+                    <!-- Place this tag where you want the button to render. -->
+                    <a class="github-button" href="https://github.com/esri-es/Web-AppBuilder-Custom-Widgets" data-icon="octicon-star" data-style="mega" data-count-href="/esri-es/Web-AppBuilder-Custom-Widgets/stargazers" data-count-api="/repos/esri-es/Web-AppBuilder-Custom-Widgets#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star esri-es/Web-AppBuilder-Custom-Widgets on GitHub" style="margin-right:1em">Star</a>
+                
+                
+                    <!-- Place this tag where you want the button to render. -->
+                    <a class="github-button" href="https://github.com/esri-es/Web-AppBuilder-Custom-Widgets/issues" data-icon="octicon-issue-opened" data-style="mega" data-count-api="/repos/esri-es/Web-AppBuilder-Custom-Widgets#open_issues_count" data-count-aria-label="# issues on GitHub" aria-label="Issue esri-es/Web-AppBuilder-Custom-Widgets on GitHub">Issue</a>
+                
+            </div>
         </div>
     </div>
 

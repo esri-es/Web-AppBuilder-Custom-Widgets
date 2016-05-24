@@ -11,6 +11,13 @@ h1{
     font-size: 2em;
     margin-bottom: 0;
 }
+.github{
+    margin:1em 0;
+}
+.github > *{
+    display:inline-block;
+    margin-right: 1rem;
+}
 h2{
     margin-bottom: 1em;
     font-size: 1.4em;
