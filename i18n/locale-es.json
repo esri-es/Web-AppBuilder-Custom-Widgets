@@ -328,6 +328,17 @@
             "info": "https://github.com/Jimeno0/TableQueryWidget",
             "author": "Carlos Pérez",
             "author_link": "https://github.com/Jimeno0"
+        },
+        {
+            "id": 29,
+            "published": true,
+            "name": "Demographic Information",
+            "description": "Este widget permite al usuario introducir la URL de un servicio (de tipo polígono) y elegir qué campos mostrar con su correspondiente etiqueta en un popup que se abrirá automáticamente al pasar por encima de cada entidad",
+            "demo": "http://mundogister.github.io/Widgets_Web_AppBuilder/Demographic_Information/Demo/",
+            "download": "https://github.com/MundoGister/Widgets_Web_AppBuilder/archive/gh-pages.zip",
+            "info": "https://github.com/MundoGister/Widgets_Web_AppBuilder",
+            "author": "Carlos Herrera",
+            "author_link": "https://github.com/MundoGister"
         }
         
     ]
