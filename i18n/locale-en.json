@@ -338,6 +338,17 @@
             "info": "https://github.com/MundoGister/Widgets_Web_AppBuilder",
             "author": "Carlos Herrera",
             "author_link": "https://github.com/MundoGister"
+        },
+        {
+            "id": 30,
+            "published": true,
+            "name": "Image Service Bands",
+            "description": "This widget allows the user to enter the URL of an image service and allow to the users to display the raster with differents band combinations",
+            "demo": "https://joanpere.github.io/ImageServiceBandWidget/DemoApp/",
+            "download": "https://github.com/JoanPere/ImageServiceBandWidget/archive/master.zip",
+            "info": "https://github.com/JoanPere/ImageServiceBandWidget",
+            "author": "Joan Pere Avariento",
+            "author_link": "https://github.com/JoanPere"
         }
         
         
