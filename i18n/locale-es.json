@@ -357,7 +357,7 @@
             "name": "Google Analytics",
             "description": "Añade Google Analytics y haz un seguimiento del uso de tu aplicación",
             "demo": "http://esri-es.github.io/Web-AppBuilder-Custom-Widgets/demo/GoogleAnalytics/index.html",
-            "download": "https://github.com/igrasshoff/esri-wab-widget-google-analytics",
+            "download": "https://github.com/igrasshoff/esri-wab-widget-google-analytics/archive/master.zip",
             "info": "https://community.esri.com/thread/117055",
             "author": "Ian Grasshoff",
             "author_link": "https://github.com/igrasshoff"
