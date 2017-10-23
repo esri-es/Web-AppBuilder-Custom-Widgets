@@ -1,0 +1,11 @@
+li{
+	list-style-type:none;
+}
+#codeInput{
+    height:50%;
+    width:100%;
+    padding-bottom:5%;
+}
+.title{
+    margin-bottom:2%;
+}

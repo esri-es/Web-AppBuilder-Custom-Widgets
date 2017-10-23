@@ -1,0 +1,21 @@
+{
+  "name": "GoogleAnalytics",
+  "label": "Google Analytics",
+  "2D": true,
+  "3D": false,
+  "platform": "HTML",
+  "version": "0.0.2",
+  "wabVersion": "2.1.0",
+  "author": "Matthew Lewis, modifications by Ian Grasshoff",
+  "description": "Google Analytics",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+    "inPanel": false,
+    "hasLocale": true,
+    "hasStyle": true,
+    "hasConfig": true,
+    "hasUIFile": false,
+    "openAtStart": true
+  }
+}

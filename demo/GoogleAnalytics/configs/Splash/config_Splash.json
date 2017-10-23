@@ -1,0 +1,34 @@
+{
+  "splash": {
+    "splashContent": "<div style=\"text-align: center;\">Google Analytics widget is working in background, please open your browser developer tools, refresh this tab and check the network requests.</div><div style=\"text-align: center;\"><br /></div><div style=\"text-align: center;\"><a href=\"https://user-images.githubusercontent.com/826965/31867979-c609aaba-b798-11e7-94fd-a4a16db64e70.png\"><img src=\"https://user-images.githubusercontent.com/826965/31867979-c609aaba-b798-11e7-94fd-a4a16db64e70.png\" style=\"width:50%\" /></a><br /></div>",
+    "requireConfirm": false,
+    "confirm": {
+      "text": "",
+      "color": "#ffffff",
+      "transparency": 0
+    },
+    "showOption": true,
+    "confirmEverytime": true,
+    "contentVertical": "middle",
+    "size": {
+      "mode": "wh",
+      "wh": {
+        "w": 600,
+        "h": 264
+      }
+    },
+    "background": {
+      "mode": "color",
+      "image": null,
+      "type": "fill",
+      "fileName": "No%20file%20chosen",
+      "color": "#485566",
+      "transparency": 0
+    },
+    "button": {
+      "color": "#518dca",
+      "transparency": 0,
+      "text": "OK"
+    }
+  }
+}

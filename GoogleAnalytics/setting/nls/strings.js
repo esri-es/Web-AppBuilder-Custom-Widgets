@@ -1,0 +1,31 @@
+define({
+  root: {
+      logMapEvents: "Log Map Events (Pan, Zoom Etc) to Google Analytics",
+      logLayerEvents: "Log Layer Events (load, add, remove) to Google Analytics"      
+  },
+  "ar": false,
+  "cs": false,
+  "da": false,
+  "de": false,
+  "es": false,
+  "et": false,
+  "fi": false,
+  "fr": false,
+  "he": false,
+  "it": false,
+  "ja": false,
+  "ko": false,
+  "lt": false,
+  "lv": false,
+  "nb": false,
+  "nl": false,
+  "pl": false,
+  "pt-BR": false,
+  "pt-PT": false,
+  "ro": false,
+  "ru": false,
+  "sv": false,
+  "th": false,
+  "tr": false,
+  "zh-cn": false
+});
